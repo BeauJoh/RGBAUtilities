@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B95BDC713CD2F4800B3E897 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B95BDC613CD2F4800B3E897 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B95BDC013CD2F4800B3E897 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B95BDC213CD2F4800B3E897 /* RGBAUtilities */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RGBAUtilities; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B95BDC613CD2F4800B3E897 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8B95BDC813CD2F4800B3E897 /* RGBAUtilities.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RGBAUtilities.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B95BDBF13CD2F4800B3E897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B95BDB713CD2F4800B3E897 = {
+			isa = PBXGroup;
+			children = (
+				8B95BDC513CD2F4800B3E897 /* RGBAUtilities */,
+				8B95BDC313CD2F4800B3E897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B95BDC313CD2F4800B3E897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B95BDC213CD2F4800B3E897 /* RGBAUtilities */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B95BDC513CD2F4800B3E897 /* RGBAUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B95BDC613CD2F4800B3E897 /* main.cpp */,
+				8B95BDC813CD2F4800B3E897 /* RGBAUtilities.1 */,
+			);
+			path = RGBAUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B95BDC113CD2F4800B3E897 /* RGBAUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B95BDCB13CD2F4800B3E897 /* Build configuration list for PBXNativeTarget "RGBAUtilities" */;
+			buildPhases = (
+				8B95BDBE13CD2F4800B3E897 /* Sources */,
+				8B95BDBF13CD2F4800B3E897 /* Frameworks */,
+				8B95BDC013CD2F4800B3E897 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBAUtilities;
+			productName = RGBAUtilities;
+			productReference = 8B95BDC213CD2F4800B3E897 /* RGBAUtilities */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B95BDB913CD2F4800B3E897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University Of New England";
+			};
+			buildConfigurationList = 8B95BDBC13CD2F4800B3E897 /* Build configuration list for PBXProject "RGBAUtilities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B95BDB713CD2F4800B3E897;
+			productRefGroup = 8B95BDC313CD2F4800B3E897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B95BDC113CD2F4800B3E897 /* RGBAUtilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B95BDBE13CD2F4800B3E897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B95BDC713CD2F4800B3E897 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B95BDC913CD2F4800B3E897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B95BDCA13CD2F4800B3E897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B95BDCC13CD2F4800B3E897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B95BDCD13CD2F4800B3E897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B95BDBC13CD2F4800B3E897 /* Build configuration list for PBXProject "RGBAUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B95BDC913CD2F4800B3E897 /* Debug */,
+				8B95BDCA13CD2F4800B3E897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B95BDCB13CD2F4800B3E897 /* Build configuration list for PBXNativeTarget "RGBAUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B95BDCC13CD2F4800B3E897 /* Debug */,
+				8B95BDCD13CD2F4800B3E897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B95BDB913CD2F4800B3E897 /* Project object */;
+}

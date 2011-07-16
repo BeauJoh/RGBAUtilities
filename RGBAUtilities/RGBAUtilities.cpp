@@ -34,7 +34,7 @@ png_infop info_ptr;
 int number_of_passes;
 png_bytep * row_pointers;
 
-uint32 _imageLength, _imageWidth, _config, _bitsPerSample, _samplesPerPixel, _bitsPerPixel;
+uint32 _imageLength, _imageWidth, _config, _bitsPerSample, _samplesPerPixel, _bitsPerPixel, _imageBitSize, _imageSize;
 uint64 _linebytes;
 
 void read_png_file(char* file_name)
@@ -85,7 +85,8 @@ void read_png_file(char* file_name)
     _bitsPerPixel = _samplesPerPixel*_bitsPerSample;
     _linebytes = _samplesPerPixel * _imageWidth; // = 640
     //_linebytes = png_get_rowbytes(png_ptr, info_ptr); = 640
-    
+    _imageBitSize = (sizeof(uint8) * _imageWidth * _imageLength * _samplesPerPixel);
+    _imageSize = _imageWidth * _imageLength * _samplesPerPixel;
     //printf("linebytes = %i, expected %i\n",_linebytes,png_get_rowbytes(png_ptr, info_ptr));
     //printf("Image Height is %d", sizeof(png_bytep) * imageHeight);
 
@@ -185,12 +186,49 @@ void process_file(void)
     }
 }
 
-uint8* getImage(void){
+uint8* normalizeImage(uint8* input){
+    //with 8 bits this obvously causes a rounding error, usually down to 0, solve this by storing as floats
+    uint8* output = new uint8[_imageBitSize];
+    
+    for (int i = 0; i < _imageSize; i++) {
+        output[i] = (input[i]/pow(2,_bitsPerSample));
+    }
+    delete input;
+    return output;
+}
+
+uint8* denormalizeImage(uint8*input){
+    //with 8 bits this obvously causes a rounding error, usually down to 0, solve this by storing as floats
+    uint8* output = new uint8[_imageBitSize];
+
+    for (int i = 0; i < _imageSize; i++) {
+        output[i] = (input[i]*pow(2,_bitsPerSample));
+    }
+    delete input;
+    return output;
+}
+
+bool allPixelsAreNormal(uint8* image){
+    #ifdef DEBUG
+    printf("bits per sample is %i", _bitsPerSample);
+    #endif
+    for (int i = 0; i < _imageSize; i++) {
+        if (image[i] > 1) {
+            #ifdef DEBUG
+            printf("Not normal at point %i with %d", i, image[i]);
+            #endif
+            return false;
+        }
+    }
+    return true;
+}
+
+uint8* convolutedGetImage(void){
     uint8* image = new uint8[(sizeof(uint8) * imageHeight)];
 
     if (png_get_color_type(png_ptr, info_ptr) != PNG_COLOR_TYPE_RGBA)
         abort_("[process_file] color_type of input file must be PNG_COLOR_TYPE_RGBA (%d) (is %d)",
-               PNG_COLOR_TYPE_RGBA, png_get_color_type(png_ptr, info_ptr));
+                PNG_COLOR_TYPE_RGBA, png_get_color_type(png_ptr, info_ptr));
     
     for (y=0; y<imageHeight; y++) {
         uint8* row = row_pointers[y];
@@ -200,11 +238,29 @@ uint8* getImage(void){
             image[y*imageWidth + x] = *ptr;
         }
     }
-
+    
     return image;
 }
 
-void setImage(uint8* image){
+uint8* getImage(void){
+    uint8* image = new uint8[(sizeof(uint8) * _imageWidth * _imageLength * _samplesPerPixel)];
+    for (y=0; y < _imageLength; y++) {
+        uint8* row = row_pointers[y];
+        int origX = 0;
+        for (x=0; x < _linebytes; x+=4) {
+            uint8* ptr = &(row[origX*4]);
+            image[y*_linebytes + x + 0] = ptr[0];
+            image[y*_linebytes + x + 1] = ptr[1];
+            image[y*_linebytes + x + 2] = ptr[2];
+            image[y*_linebytes + x + 3] = ptr[3];
+            origX++;
+        }
+    }
+    
+    return image;
+}
+
+void convolutedSetImage(uint8* image){
     for (y=0; y<imageHeight; y++) {
         uint8* row = row_pointers[y];
         for (x=0; x<imageWidth; x++) {
@@ -212,6 +268,26 @@ void setImage(uint8* image){
             *ptr = image[y*imageWidth + x];
         }
     }
+    
+    delete image;
+
+}
+
+void setImage(uint8* image){
+    
+    for (y=0; y < _imageLength; y++) {
+        uint8* row = row_pointers[y];
+        int origX = 0;
+        for (x=0; x < _linebytes; x+=4) {
+            uint8* ptr = &(row[origX*4]);
+            ptr[0] = image[y*_linebytes + x + 0];
+            ptr[1] = image[y*_linebytes + x + 1];
+            ptr[2] = image[y*_linebytes + x + 2];
+            ptr[3] = image[y*_linebytes + x + 3];
+            origX++;
+        }
+    }
+    
     delete image;
 }
 

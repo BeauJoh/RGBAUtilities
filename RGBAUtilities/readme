@@ -1,0 +1,4 @@
+Should be implemented as a class, this will allow each instance to read and write seperately, would be useful when dealing with different dimensional images. Either that of write accessor functions for every PNG tag being used... got time? Go for it!
+
+
+Fixing Normalizing functions should be a priority, fix this by storing as floats, this isn't essential for my uses currently, OpenCL supports unnormalized data just as easily!

@@ -14,9 +14,10 @@ int main(int argc, char **argv)
 {  
     read_png_file((char*)"rgba.png");
     uint8* image = getImage();
-    
-    //just an example on how to access individual pixels/components of pixels
-    //process_file();
+
+    //uint8* normImage = normalizeImage(image);
+    //allPixelsAreNormal(normImage);
+    //uint8* deNormImage = denormalizeImage(normImage);
     
     setImage(image);
     write_png_file((char*)"out.png");

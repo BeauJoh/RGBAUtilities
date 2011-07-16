@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B04367113D17FCE00695184 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		8B95BDC213CD2F4800B3E897 /* RGBAUtilities */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RGBAUtilities; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B95BDC613CD2F4800B3E897 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8B95BDC813CD2F4800B3E897 /* RGBAUtilities.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RGBAUtilities.1; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		8B95BDC513CD2F4800B3E897 /* RGBAUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				8B04367113D17FCE00695184 /* readme */,
 				8B95BDDA13CD65D900B3E897 /* RGBAUtilities.h */,
 				8B95BDD913CD65D900B3E897 /* RGBAUtilities.cpp */,
 				8B95BDC613CD2F4800B3E897 /* main.cpp */,
@@ -204,6 +206,7 @@
 				8B95BDCD13CD2F4800B3E897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

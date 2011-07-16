@@ -2,8 +2,13 @@
 //  RGBAUtilities.cpp
 //  RGBAUtilities
 //
-//  Created by Beau Johnston on 13/07/11.
-//  Copyright 2011 University Of New England. All rights reserved.
+//  Initially created by Guillaume Cottenceau. 
+//  Copyright 2002-2010 Guillaume Cottenceau.
+//
+//  Modified by Beau Johnston on 13/07/11.
+//  Copyright 2011 Beau Johnston
+//  This software may be freely redistributed under the terms
+//  of the X11 license.
 //
 
 #include "RGBAUtilities.h"
@@ -181,7 +186,7 @@ void process_file(void)
 }
 
 uint8* getImage(void){
-    uint8* image = (uint8*) malloc(sizeof(uint8) * imageHeight);
+    uint8* image = new uint8[(sizeof(uint8) * imageHeight)];
 
     if (png_get_color_type(png_ptr, info_ptr) != PNG_COLOR_TYPE_RGBA)
         abort_("[process_file] color_type of input file must be PNG_COLOR_TYPE_RGBA (%d) (is %d)",
@@ -207,7 +212,7 @@ void setImage(uint8* image){
             *ptr = image[y*imageWidth + x];
         }
     }
-    free(image);
+    delete image;
 }
 
 

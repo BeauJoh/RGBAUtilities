@@ -2,8 +2,13 @@
 //  RGBAUtilities.h
 //  RGBAUtilities
 //
-//  Created by Beau Johnston on 13/07/11.
-//  Copyright 2011 University Of New England. All rights reserved.
+//  Initially created by Guillaume Cottenceau. 
+//  Copyright 2002-2010 Guillaume Cottenceau.
+//
+//  Modified by Beau Johnston on 13/07/11.
+//  Copyright 2011 Beau Johnston
+//  This software may be freely redistributed under the terms
+//  of the X11 license.
 //
 
 #ifndef RGBA_UTILS

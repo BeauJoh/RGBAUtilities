@@ -52,27 +52,27 @@ t1310521502
 s371
 
 N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o
-t1310790023
-s27860
+t1310791418
+s27956
 
 N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o
-t1310535650
+t1310791327
 s24920
 
 N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities
-t1310790023
-s19016
+t1310791418
+s19136
 
 N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp
-c000000004E2111D80000000000001A54
-t1310790104
-s6740
+c000000004E2116F90000000000001AE7
+t1310791417
+s6887
 i"RGBAUtilities.h"
 
 N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h
-c000000004E1D2FB50000000000000411
-t1310535605
-s1041
+c000000004E21165F00000000000004A7
+t1310791263
+s1191
 i<unistd.h>
 i<stdlib.h>
 i<stdio.h>
@@ -95,11 +95,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesaa621e5849d1b341^f0dd2a5849d1b341^---0#1#0#--18"Check dependencies
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies639a597c4ed1b341^cc975b7c4ed1b341^---0#1#0#--18"Check dependencies
 
 CCompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s332482904.159287
-e332482904.285249
+s332484218.012399
+e332484218.146396
 r1
 xCompileC
 xDerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o
@@ -108,11 +108,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp382c295849d1b341^234b4a5849d1b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp0000000000000000^2405"CompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o RGBAUtilities/RGBAUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-generated-files.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-own-target-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-all-target-headers.hmap -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-project-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -c /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp3d48037a4ed1b341^9a7a257a4ed1b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp0000000000000000^2405"CompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o RGBAUtilities/RGBAUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-generated-files.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-own-target-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-all-target-headers.hmap -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-project-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -c /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o
 
 CCompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s332228449.648741
-e332228450.141844
+s332484125.252115
+e332484127.311751
 r1
 xCompileC
 xDerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o
@@ -121,15 +121,15 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cppc617a96167cdb341^8a57256267cdb341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp0000000000000000^2369"CompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o RGBAUtilities/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-generated-files.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-own-target-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-all-target-headers.hmap -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-project-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -c /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp81b3401d4ed1b341^c348531f4ed1b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp0000000000000000^2369"CompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o RGBAUtilities/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-generated-files.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-own-target-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-all-target-headers.hmap -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-project-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -c /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o
 
 CLd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities normal x86_64
-s332482904.285468
-e332482904.406050
+s332484218.146951
+e332484218.879191
 r1
 xLd
 x/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities
 xnormal
 xx86_64
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities802b495849d1b341^9df3675849d1b341^---0#0#0#--868"Ld DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities normal x86_64    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -filelist /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.LinkFileList -mmacosx-version-min=10.6 -framework libpng -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities30b9257a4ed1b341^3013e17a4ed1b341^---0#0#0#--868"Ld DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities normal x86_64    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -filelist /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.LinkFileList -mmacosx-version-min=10.6 -framework libpng -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities
 

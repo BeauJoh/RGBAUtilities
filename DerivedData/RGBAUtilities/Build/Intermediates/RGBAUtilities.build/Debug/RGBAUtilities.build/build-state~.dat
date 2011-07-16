@@ -1,0 +1,138 @@
+TRGBAUtilities
+v3
+r1
+cCheck dependencies
+cCompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D9A5AF800000000000000EE
+t1301961464
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h
+c000000004D1168E1000000000001CEAA
+t1292986593
+s118442
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/libpng
+c000000004D1168F600000000000AF1B8
+t1292986614
+s717240
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/usr/lib/clang/2.0/include/stdarg.h
+c000000004D6D784400000000000007F6
+t1299019844
+s2038
+
+N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.LinkFileList
+c000000004E1CF89E0000000000000173
+t1310521502
+s371
+
+N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o
+t2
+s0
+
+N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities
+t2
+s0
+
+N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp
+c000000004E1CF89E000000000000133C
+t1310521502
+s4924
+i"RGBAUtilities.h"
+
+N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h
+c000000004E1CF89D000000000000012E
+t1310521501
+s302
+i<unistd.h>
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<stdarg.h>
+i<libpng/png.h>
+
+N/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp
+c000000004E1CF7C80000000000000127
+t1310521288
+s295
+i<iostream>
+
+CBuild AST from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp
+r0
+
+CBuild AST from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies289b7a1e30cdb341^3a75991e30cdb341^---0#1#0#--18"Check dependencies
+
+CCompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s332214302.591295
+e332214303.978460
+r0
+xCompileC
+xDerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o
+x/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp:41:9:{41:9-41:20}: error: no matching function for call to 'png_sig_cmp' [2]
+o     if (png_sig_cmp(header, 0, 8))
+o         ^~~~~~~~~~~
+oIn file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp:9:
+oIn file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h:16:
+o/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h:1509:1: note: candidate function not viable: no known conversion from 'char [8]' to 'png_bytep' (aka 'unsigned char *') for 1st argument [2]
+o PNG_EXPORT(int,png_sig_cmp) PNGARG((png_bytep sig, png_size_t start,
+o ^
+o/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h:1509:16: note: instantiated from:
+o PNG_EXPORT(int,png_sig_cmp) PNGARG((png_bytep sig, png_size_t start,
+o                ^
+o1 error generated.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp6479971e30cdb341^556afa1f30cdb341^-976"/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp:41:9:{41:9-41:20}: error: no matching function for call to 'png_sig_cmp' [2]     if (png_sig_cmp(header, 0, 8))         ^~~~~~~~~~~In file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp:9:In file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h:16:/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h:1509:1: note: candidate function not viable: no known conversion from 'char [8]' to 'png_bytep' (aka 'unsigned char *') for 1st argument [2] PNG_EXPORT(int,png_sig_cmp) PNGARG((png_bytep sig, png_size_t start, ^/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h:1509:16: note: instantiated from: PNG_EXPORT(int,png_sig_cmp) PNGARG((png_bytep sig, png_size_t start,                ^1 error generated.1(21%IDEActivityLogMessage2@46"No matching function for call to 'png_sig_cmp'-332214303#0#169#2(2@122"Candidate function not viable: no known conversion from 'char [8]' to 'png_bytep' (aka 'unsigned char *') for 1st argument81"Candidate function not viable: no known conversion from 'char [8]' to 'png_bytep'332214303#459#222#3(36%IDEActivityLogHeaderInclusionMessage3@115"In file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h:16:-332214303#343#116#-0#-23%DVTTextDocumentLocation4@105"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h0000000000000000^15#18446744073709551615#15#18446744073709551615#18446744073709551615#0#---3@116"In file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp:9:-332214303#226#117#-0#-4@107"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@206"Candidate function not viable: no known conversion from 'char [8]' to 'png_bytep' (aka 'unsigned char *') for 1st argument in /Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h-332214303#18446744073709551615#0#-0#-4@96"file://localhost/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h0000000000000000^1508#0#1508#0#18446744073709551615#0#---0#-4@96"file://localhost/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h0000000000000000^1508#0#1508#0#18446744073709551615#0#14"Semantic Issue--2@99"Instantiated from: /Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h-332214303#754#115#3(3@115"In file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h:16:-332214303#18446744073709551615#0#-0#-4@105"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.h0000000000000000^15#18446744073709551615#15#18446744073709551615#18446744073709551615#0#---3@116"In file included from /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp:9:-332214303#18446744073709551615#0#-0#-4@107"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp0000000000000000^8#18446744073709551615#8#18446744073709551615#18446744073709551615#0#---2@183"Instantiated from: /Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h in /Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h-332214303#18446744073709551615#0#-0#-4@96"file://localhost/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h0000000000000000^1508#15#1508#15#18446744073709551615#0#---0#-4@96"file://localhost/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/libpng.framework/Headers/png.h0000000000000000^1508#15#1508#15#18446744073709551615#0#---2#-4@107"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp0000000000000000^40#8#40#8#18446744073709551615#0#14"Semantic Issue1(4@107"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp0000000000000000^40#8#40#19#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation5@107"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp0000000000000000^2405"CompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o RGBAUtilities/RGBAUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-generated-files.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-own-target-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-all-target-headers.hmap -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-project-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -c /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/RGBAUtilities.cpp -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/RGBAUtilities.o
+
+CCompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s332214302.590027
+e332214304.678876
+r1
+xCompileC
+xDerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o
+x/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cppf629971e30cdb341^10ccad2030cdb341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp0000000000000000^2369"CompileC DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o RGBAUtilities/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-generated-files.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-own-target-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-all-target-headers.hmap -iquote /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/RGBAUtilities-project-headers.hmap -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/include -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources/x86_64 -I/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/DerivedSources -F/Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug -c /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/RGBAUtilities/main.cpp -o /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Intermediates/RGBAUtilities.build/Debug/RGBAUtilities.build/Objects-normal/x86_64/main.o
+
+CLd /Users/beau/Documents/FourthYear/miscProjects/RGBAUtilities/DerivedData/RGBAUtilities/Build/Products/Debug/RGBAUtilities normal x86_64
+r0
+

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B95BDC713CD2F4800B3E897 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B95BDC613CD2F4800B3E897 /* main.cpp */; };
+		8B95BDD213CD301000B3E897 /* libpng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B95BDD113CD301000B3E897 /* libpng.framework */; };
+		8B95BDDB13CD65D900B3E897 /* RGBAUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B95BDD913CD65D900B3E897 /* RGBAUtilities.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,9 @@
 		8B95BDC213CD2F4800B3E897 /* RGBAUtilities */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RGBAUtilities; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B95BDC613CD2F4800B3E897 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8B95BDC813CD2F4800B3E897 /* RGBAUtilities.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RGBAUtilities.1; sourceTree = "<group>"; };
+		8B95BDD113CD301000B3E897 /* libpng.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libpng.framework; path = Library/Frameworks/libpng.framework; sourceTree = SDKROOT; };
+		8B95BDD913CD65D900B3E897 /* RGBAUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RGBAUtilities.cpp; sourceTree = "<group>"; };
+		8B95BDDA13CD65D900B3E897 /* RGBAUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBAUtilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B95BDD213CD301000B3E897 /* libpng.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 		8B95BDB713CD2F4800B3E897 = {
 			isa = PBXGroup;
 			children = (
+				8B95BDD113CD301000B3E897 /* libpng.framework */,
 				8B95BDC513CD2F4800B3E897 /* RGBAUtilities */,
 				8B95BDC313CD2F4800B3E897 /* Products */,
 			);
@@ -58,6 +65,8 @@
 		8B95BDC513CD2F4800B3E897 /* RGBAUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				8B95BDDA13CD65D900B3E897 /* RGBAUtilities.h */,
+				8B95BDD913CD65D900B3E897 /* RGBAUtilities.cpp */,
 				8B95BDC613CD2F4800B3E897 /* main.cpp */,
 				8B95BDC813CD2F4800B3E897 /* RGBAUtilities.1 */,
 			);
@@ -115,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B95BDC713CD2F4800B3E897 /* main.cpp in Sources */,
+				8B95BDDB13CD65D900B3E897 /* RGBAUtilities.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

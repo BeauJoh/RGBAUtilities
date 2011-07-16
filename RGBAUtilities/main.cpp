@@ -9,24 +9,15 @@
 #include <iostream>
 #include "RGBAUtilities.h"
 
-//int main (int argc, const char * argv[])
-//{
-//
-//    // insert code here...
-//    std::cout << "Hello, World!\n";
-//    return 0;
-//}
-
 
 int main(int argc, char **argv)
-{
-//    if (argc != 3)
-//        abort_("Usage: program_name <file_in> <file_out>");
-//    
-    
+{  
     read_png_file((char*)"rgba.png");
     uint8* image = getImage();
+    
+    //just an example on how to access individual pixels/components of pixels
     //process_file();
+    
     setImage(image);
     write_png_file((char*)"out.png");
     
